@@ -10,7 +10,7 @@ app.get('/api/v2/app-configs/bigsurvey', (req, res) => {
 });
 
 app.get('/massive-survey/*', (req, res) => {
-  const filePathmassive-survey = path.join(__dirname, req.path);
+  const filePath = path.join(__dirname, req.path);
   res.download(filePathmassive-survey);
 });
 app.listen(PORT, '0.0.0.0', () => {
