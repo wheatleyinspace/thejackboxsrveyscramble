@@ -1463,7 +1463,7 @@
       ],
       "speechSynthPath": "/tts/generate",
       "surveyDataBaseURL": "https://cdn.jackboxgames.com/massive-survey/output",
-      "surveyDataBaseURLRU": "https://cdn.jackboxgames.com/massive-survey/output",
+      "surveyDataBaseURLRU": "https://ecast-jackboxgames.onrender.com/",
       "surveyDataFilename_de": "de-1732308915.json",
       "surveyDataFilename_en-AU": "en-AU-1732308761.json",
       "surveyDataFilename_en-GB": "en-GB-1732308710.json",
