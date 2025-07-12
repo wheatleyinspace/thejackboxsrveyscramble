@@ -11,7 +11,7 @@ app.get('/api/v2/app-configs/bigsurvey', (req, res) => {
 
 app.get('/massive-survey/*', (req, res) => {
   const filePath = path.join(__dirname, req.path);
-  res.download(filePathmassive-survey);
+  res.download(filePath);
 });
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Сервер запущен на порту ${PORT}`);
