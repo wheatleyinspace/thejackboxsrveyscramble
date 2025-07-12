@@ -8,3 +8,6 @@ app.get('/api/v2/app-configs/bigsurvey', (req, res) => {
   const filePath = path.join(__dirname, 'bigsurvey.json');
   res.sendFile(filePath);
 });
+
+app.listen(PORT, '0.0.0.0', () => {
+});
