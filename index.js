@@ -10,4 +10,5 @@ app.get('/api/v2/app-configs/bigsurvey', (req, res) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Сервер запущен на порту ${PORT}`);
 });
