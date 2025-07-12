@@ -9,6 +9,8 @@ app.get('/api/v2/app-configs/bigsurvey', (req, res) => {
   res.sendFile(filePath);
 });
 
+app.use('/massive-survey', express.static(path.join(__dirname, 'massive-survey')));
+
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Сервер запущен на порту ${PORT}`);
 });
